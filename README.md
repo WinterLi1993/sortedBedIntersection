@@ -15,7 +15,10 @@ Anything under 5 minutes is quite good, though a number of people got under 30s 
 The intron.bed file has been added to the Data folder
 The TE.bed can be downloaded from https://www.dropbox.com/s/gd0iqq7plcmv1a6/TE.rar?dl=0
 
+TE.bed  : 4411767 entries
+Intron.bed : 238869 entries
+Time taken by the script : 8.3 sec on a Intel I7 6500U@2.5GHz 
 Usage
 
-./finalversion_overlap.pl Intron.bed TE.bed > output_file
+./finalversion_overlap.pl /path/to/Intron.bed /path/to/TE.bed > output_file
 
